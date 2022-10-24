@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  --orange-120: #E87928;
+  --orange-100: #FF8B37;
+  --orange-80: #FFAC70;
+  --orange-5: #FFF3EB;
+
+  --green-100: #47D867;
+  --green-5: #E6FAEA;
+
+  --red-100: #EC6259;
+  --red-5: #FDEEED;
+
+  --black-100: #1C1C21;
+  --black-40: #D0D0D8;
+  --black-5: #F5F5F7;
+
+  --white-100: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  color: var(--black-100);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+  margin: unset;
+}

@@ -1,0 +1,98 @@
+.optionButtonContainer{
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 25px 12%;
+
+  &_small{
+    padding: 8px 7%;
+    min-height: 39.195px;
+  }
+}
+
+.optionButtonSVG{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.optionButton {
+  stroke: var(--black-40);
+  fill: var(--white-100);
+  z-index: 1;
+  transition: .3s;
+
+  &_pointer{
+    cursor: pointer;
+  }
+
+  &_selected{
+    stroke: var(--orange-100);
+    fill: var(--orange-5);
+  }
+
+  &_correct{
+    stroke: var(--green-100);
+    fill: var(--green-5);
+  }
+
+  &_wrong{
+    stroke: var(--red-100);
+    fill: var(--red-5);
+  }
+
+  &_active{
+    stroke: var(--orange-100);
+  }
+
+  &:hover{
+    stroke: var(--orange-80);
+  }
+}
+
+.buttonText{
+  cursor: default;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 116%;
+
+  &_center{
+    justify-content: center;
+  }
+
+  &_disabled{
+    color: var(--black-40);
+  }
+
+  &_active{
+    color: var(--orange-100);
+  }
+
+  &_pointer{
+    cursor: pointer;
+  }
+
+  &_option{
+    color: var(--orange-100);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  &:hover + .optionButtonSVG > .optionButton{
+    stroke: var(--orange-100);
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}

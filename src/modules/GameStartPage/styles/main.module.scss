@@ -1,0 +1,62 @@
+.main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.image{
+  width: 450px;
+}
+
+.startGameContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.h1{
+  max-width: 624px;
+  font-size: 56px;
+}
+
+.h2{
+  color: var(--black-40);
+  max-width: 624px;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 930px) {
+  .main{
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .image{
+    width: 200px;
+  }
+
+  .startGameContainer{
+    align-items: center;
+    gap: 102px;
+  }
+
+  .h1{
+    width: 288px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .h2{
+    width: 288px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+}

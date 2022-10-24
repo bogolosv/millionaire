@@ -1,0 +1,338 @@
+{
+  "levels": [
+    {
+      "price": 1000000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Завжди знаходиться у роті, а проковтнути не можна.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Язик"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Зуб"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Цукерка"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Молоко"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 500000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Цвіте на обличчі та зростає від радості.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Посмішка"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Квітка"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Гриб"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Волосся"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 250000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "П’ять синів у 2-х матерів, а ім’я одне всім.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Пальці"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Руки"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Ноги"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Голова"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 125000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Б’ється, стука молоток, поправляє нам садок.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Дятел"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Дядько Остап"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Кіт"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Баба Параска"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 64000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Хто мене вб’є, свою кров проллє.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Комар"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Жук"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Привид"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Слон"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 32000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Які зуби у людини з’являються останніми?",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Штучні"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Молочні"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Вирвані"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Зуби сусіда"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 16000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Сто одежинок і всі без застібок, але не капуста.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Бомж"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Песик"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Їжак"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Півень"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 8000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Що таке — на стелі сидить, лампочку гризе?",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Стельовий лампогриз."
+            },
+            {
+              "isAnswer": false,
+              "answer": "Вітер"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Колобок"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Лисиця"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 4000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "З якого посуду не можна нічого з’їсти?",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Порожнього"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Повного"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Цілого"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Чорного"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 2000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Де вперше було виявлено картоплю?",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "В землі"
+            },
+            {
+              "isAnswer": false,
+              "answer": "В воді"
+            },
+            {
+              "isAnswer": false,
+              "answer": "В повітрі"
+            },
+            {
+              "isAnswer": false,
+              "answer": "В вогні"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 1000,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Чим більше з неї береш, тим більшою вона стає.",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Яма"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Вода"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Нерви"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Миска"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "price": 500,
+      "questions": [
+        {
+          "isMultiAnswer": false,
+          "question": "Що у вогні не горить і у воді не тоне?",
+          "answers": [
+            {
+              "isAnswer": true,
+              "answer": "Лід"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Дрова"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Сірник"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Папір"
+            },
+            {
+              "isAnswer": false,
+              "answer": "Папір2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "currentLevelId": 1,
+      "present": 0
+    }
+  ]
+}

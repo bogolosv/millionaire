@@ -1,0 +1,29 @@
+.loadingContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  background: var(--black-5);
+}
+
+.loading{
+  width: 20%;
+  height: 100%;
+  background: var(--orange-100);
+  position: absolute;
+  top: 0;
+  animation: 3s ease-in 1s infinite reverse both running loading;
+}
+
+@keyframes loading {
+  0% {
+    left: 0;
+  }
+  50%{
+    left: 80%
+  }
+  100%{
+    left: 0;
+  }
+}
