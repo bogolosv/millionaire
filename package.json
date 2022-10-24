@@ -1,16 +1,20 @@
 {
   "name": "millionaire",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": "Bohdan Volkovynskyy",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.3.2",
     "firebase": "^9.12.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-firebase-hooks": "^5.0.3"
@@ -22,5 +26,6 @@
     "sass": "^1.55.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  }
+  },
+  "homepage": "https://bogolosv.github.io/millionaire/"
 }
